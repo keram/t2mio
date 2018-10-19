@@ -1,0 +1,31 @@
+{
+  "name": "t2mio",
+  "version": "1.0.0",
+  "description": "Client for t2m.io url shortener.",
+  "main": "t2mio.js",
+  "scripts": {
+    "test": "node node_modules/jest/bin/jest.js",
+    "lint": "node node_modules/eslint/bin/eslint.js . --cache --ext js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keram/t2mio.git"
+  },
+  "keywords": [
+    "t2mio",
+    "shortener",
+    "url",
+    "bitly"
+  ],
+  "author": "Marek L <nospam.keram@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keram/t2mio/issues"
+  },
+  "homepage": "https://github.com/keram/t2mio#readme",
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-google": "^0.11.0",
+    "jest": "^23.6.0"
+  }
+}
